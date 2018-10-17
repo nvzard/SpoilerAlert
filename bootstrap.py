@@ -1,8 +1,8 @@
 import re
 
-from colors import print_string
-from database import feed_data_into_db
-from emailer import send_email_to_user
+from Utils.colors import print_string
+from Utils.database import feed_data_into_db
+from Utils.emailer import send_email_to_user
 from TVShow.TVShow import TVShow
 
 from colorama import init
