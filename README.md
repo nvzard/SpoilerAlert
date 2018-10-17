@@ -9,6 +9,8 @@
 ## See it in action
 ![SpoilerAlert in action](https://raw.githubusercontent.com/nvzard/SpoilerAlert/master/assets/action.gif)
 
+Checkout other images <a href="https://github.com/nvzard/SpoilerAlert/tree/master/assets">here</a>.
+
 ### Requirements
 You need **requests**, **BeautifulSoup** and **colorama** to run this script.
 
