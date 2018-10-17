@@ -27,4 +27,4 @@ def send_email_to_user(user_email, body):
     # terminating the session
     server.quit()
     # Inform user that the email has been sent
-    print('\n**Email successfully sent**\n')
+    print('**Email successfully sent**\n')
