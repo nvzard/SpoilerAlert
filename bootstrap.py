@@ -12,6 +12,17 @@ from multiprocessing.dummy import Pool as ThreadPool
 
 NO_OF_WORKERS = 4
 
+
+def get_input(text):
+    """
+    Get input from user.
+
+    :param text: Text to print before taking input.
+
+    :return:     Input of user.
+    """
+    return input(text)
+
 def get_tv_shows_list():
     """
     Get list of TV shows as string input from user.
@@ -20,7 +31,7 @@ def get_tv_shows_list():
     :return: list of TV shows
     """
     INPUT_STRING = 'Enter the list of TV shows seperated by comma(,): '
-    tv_shows = [x.strip().lower() for x in input(INPUT_STRING).split(',')]
+    tv_shows = [x.strip().lower() for x in get_input(INPUT_STRING).split(',')]
     return tv_shows
 
 def get_user_input():
@@ -29,7 +40,7 @@ def get_user_input():
 
     :return: user's email, list of TV shows requested by user
     """
-    email_id = input("Enter your e-mail address: ")
+    email_id = get_input("Enter your e-mail address: ")
     email_id = validate_email(email_id)
 
     tv_shows = get_tv_shows_list()
