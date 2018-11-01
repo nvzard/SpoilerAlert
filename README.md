@@ -59,3 +59,5 @@ Now, to install the required packages follow the instructions as mentioned under
 1. It is recommended to run `sudo apt-get update` before running the above commands.
 2. If you don't have python3/pip3 installed, replace `python3`/`pip3` with `python`/`pip` and run the command.
 3. If you like what you see give it a :star: .
+
+***Thanks @palash25(Palash Nigam) for README.md design inspiration ^_^***
