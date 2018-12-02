@@ -1,9 +1,9 @@
 import smtplib
 
 
-_SENDER_EMAIL = 'thesaafbaat@gmail.com'
+_SENDER_EMAIL = 'email@abc.com'
 # Password visible just for demonstration purposes and will be removed after 23-10-2018
-_SENDER_PASSWORD = 'zsfsivyhbakftatk'
+_SENDER_PASSWORD = 'password'
 SUBJECT = 'Spoiler Alert Report'
 
 
